@@ -134,7 +134,7 @@ async def get_multiple_users_posts(
         }
     }
 
-@router.get("/health")
+@router.api_route("/health", methods=["GET", "HEAD"])
 async def health_check():
     """Check if API is running"""
     return {"status": "ok", "service": "twitter-api"}
