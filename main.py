@@ -27,7 +27,7 @@ def root():
         "message": "Welcome to Twitter CLI API 🐦",
         "docs": "/docs",
         "health": "/api/v1/health",
-        "example": "/api/v1/feed?max_tweets=3"
+        "example": "/api/v1/feed?max_tweets=1"
     }
 
 # Update the uvicorn run section (or create a run.py):
